@@ -5,3 +5,6 @@ class Business(models.Model):
 	name = models.CharField(max_length=255)
 	description = models.TextField()
 	established = models.DateField()
+	last_updated = models.DateField(null=True)
+
+
